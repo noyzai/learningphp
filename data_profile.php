@@ -41,7 +41,7 @@
                     <td>$alamat</td>
                     <td>$no_telp</td>
                     <td>
-                        <a href='formedit_profile.php?id_profile=$id_profile'>Edit</a>
+                        <a href='edit_profile.php?id_profile=$id_profile'>Edit</a>
                         <a href='hapus_profile.php?id_profile=$id_profile'>Hapus</a>
                     </td>
                 </tr>";
