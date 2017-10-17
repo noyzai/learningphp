@@ -21,11 +21,11 @@ $ukuran_file    = $_FILES['nama_file']['size'];
 //serta karakter non alphabet menjadi garis bawah
 
 $nama_baru = preg_replace("/\s+/","_",$nama_file);
-$direktori = "foto/$nama_baru";
+$direktori = "photo/$nama_baru";
 
-$MAX_FILE_SIZE=50000;//50kb
+$MAX_FILE_SIZE=100000;//50kb
 
-//ceck apakah file kosong?
+//check apakah file kosong?
 if(strlen(nama_file)<1) {
     header("Location:photo_form.php?status=1");
     exit();

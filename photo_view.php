@@ -10,7 +10,7 @@ $no=1;
 //proses menampilkan data
 while($rows=mysql_fetch_object($result)) {
 ?>
-        <img src="photo/<?=$rows -> nama_file;?>" width="150" height="150" alt="">
+        <img src="photo/<?=$rows->nama_file;?>" width="150" height="150" alt="">
 
 <?php
 }
