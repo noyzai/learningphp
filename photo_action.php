@@ -21,7 +21,7 @@ $ukuran_file    = $_FILES['nama_file']['size'];
 //serta karakter non alphabet menjadi garis bawah
 
 $nama_baru = preg_replace("/\s+/","_",$nama_file);
-$direktori = "foto/$nama_baru";
+$direktori = "photo/$nama_baru";
 
 $MAX_FILE_SIZE=50000;//50kb
 
